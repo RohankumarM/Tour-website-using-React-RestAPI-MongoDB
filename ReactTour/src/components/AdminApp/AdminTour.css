@@ -1,0 +1,50 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 8px 12px;
+}
+
+li:hover {
+  background-color: rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+}
+
+.table-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  border: 1px solid black;
+}
+
+.dropdown-btn{
+  margin: -20;
+  margin-left: 60px;
+  margin-bottom: 5px;
+  margin-top: -25;
+}
+
+.form-container{
+  margin-top: 30px;
+  margin-left: 400px;
+}
+
+.form-main{
+  align-content: center;
+}

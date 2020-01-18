@@ -1,0 +1,31 @@
+<html>
+
+<head>
+  <title>Simple login</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+  <script>
+    $(document).ready(function () {
+      var user, pass;
+      $("#submit").click(function () {
+        name = $("#name").val();
+        city = $("#city").val();
+        date = $("#date").val();
+        $.post("http://localhost:3000/addtour", { name: name, city: city, date: date }, function (data) {
+          if (data === 'done') {
+            alert("added successfully");
+          }
+        });
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <h1>Hello people !</h1>
+  Name : <input type="TEXT" id="name" size="40"><br>
+  City : <input type="TEXT" id="city" size="40"><br>
+  Date : <input type="TEXT" id="date" size="40"><br>
+  <input type="button" id="submit" value="Add Tour">
+</body>
+
+</html>

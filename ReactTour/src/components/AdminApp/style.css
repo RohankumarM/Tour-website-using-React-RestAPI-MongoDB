@@ -1,0 +1,35 @@
+.admin-header{
+  background-color: aliceblue;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  padding-left: 10px;
+  position: absolute;
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+

@@ -1,0 +1,10 @@
+.login-container {
+  background-color: #fff;
+  min-height: 200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(1, 200px);
+  justify-content: center;
+  align-items: center;
+  
+}

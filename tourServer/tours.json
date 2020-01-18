@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Vale do Javari",
+    "city": "Brazil",
+    "date": "Oct 30 - Nov 6"
+  },
+  {
+    "id": 2,
+    "name": "Gangkhar Puensum",
+    "city": "Bhutan",
+    "date": "Nov 10 - Nov 18"
+  },
+  {
+    "id": 3,
+    "name": "Tsingy  De Bemaraha National Park",
+    "city": "Madagascar",
+    "date": "Nov 28 - Dec 6"
+  },
+  {
+    "id": 4,
+    "name": "Northern Patagonia",
+    "city": "Chile",
+    "date": "Dec 20 - Dec 31"
+  }
+]
